@@ -3,11 +3,8 @@ const app = express()
 
 app.use((req, res, next) => {
   console.log('I am in first middleware')
-  next()
-})
-app.use((req, res, next) => {
-  console.log('I am in second middleware')
   res.send('<h1>Hello from express</h1>')
+  next()
 })
 
 app.listen(3000)
