@@ -45,8 +45,8 @@ const requestHandler = (req, res) => {
   <html>
     <head>
         <title>My First Page</title>
-        <body><h1>Hello from my Node.js Server!</h1></body>
     </head>
+    <body><h1>Hello from my Node.js Server!</h1></body>
   </html>`)
   res.end()
 }

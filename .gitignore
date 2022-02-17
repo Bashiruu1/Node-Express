@@ -143,5 +143,5 @@ dist
 .svelte-kit
 
 # text files when created in routes.js file on submit
-.txt
+message.txt
 # End of https://www.toptal.com/developers/gitignore/api/node
